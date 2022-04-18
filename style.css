@@ -157,19 +157,26 @@ body{
         width: 200px;
     }
     .square{
-        width: 67px;
-        height: 124px;
+        width: 70px;
+        height: 100px;
         margin: 0 3px;
     }
     #board{
-        width: 100%;
-        height: 100%;
         grid-gap: 0.5em;
     }
-    #record{
-        margin-top: 5px;
-    }
     #record, #timeDiv{
-        width: 100%;
+        width: 60%;
+    }
+}
+@media screen and (max-width: 375px){
+    .square{
+        width: 65px;
+        height: 110px;
+
+    }
+    #board{
+        width: auto;
+        height: auto;
+        grid-gap: 0.2em;
     }
 }
