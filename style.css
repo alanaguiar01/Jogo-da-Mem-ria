@@ -158,13 +158,16 @@ body{
     }
     .square{
         width: 67px;
-        height: 126px;
+        height: 124px;
         margin: 0 3px;
     }
     #board{
         width: 100%;
         height: 100%;
         grid-gap: 0.5em;
+    }
+    #record{
+        margin-top: 5px;
     }
     #record, #timeDiv{
         width: 100%;
