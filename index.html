@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="modal-bg">
+        <div class="modal">
+            <p class="p1">Digite seu nome:</p>
+            <p class="p2">Quando começar, iniciara o cronometro. Espere as cartas virarem para clicar na proxima carta.</p>
+            <div class="actions">
+                <input type="text" id="name" placeholder="your name">
+                <button id="continue">Começar</button>
+            </div>
+        </div>
+    </section>
+    <div id="record">
+        Record:<span id="minuteR">00</span>:<span id="secondR">00</span>
+    </div>
+    <section id="board">
+        <div id="0" class="square"></div>
+        <div id="1" class="square"></div>
+        <div id="2" class="square"></div>
+        <div id="3" class="square"></div>
+        <div id="4" class="square"></div>
+        <div id="5" class="square"></div>
+        <div id="6" class="square"></div>
+        <div id="7" class="square"></div>
+        <div id="8" class="square"></div>
+        <div id="9" class="square"></div>
+        <div id="10" class="square"></div>
+        <div id="11" class="square"></div>
+        <div id="12" class="square"></div>
+        <div id="13" class="square"></div>
+        <div id="14" class="square"></div>
+        <div id="15" class="square"></div>
+        <div id="16" class="square"></div>
+        <div id="17" class="square"></div>
+        <div id="18" class="square"></div>
+        <div id="19" class="square"></div>
+    </section>
+    <div id="timeDiv">
+        Time:<span id="minute">00</span>:<span id="second">00</span>
+    </div>
+    <section id="modal-bg2">
+        <div id="modal2">
+            <p class="p3"></p>
+            <button id="restart">Recomeçar</button>
+        </div>
+    </section>
+    </div>
+<script src="script.js" type="module"></script>    
+</body>
+</html>
