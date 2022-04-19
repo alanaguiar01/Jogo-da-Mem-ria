@@ -136,6 +136,7 @@ export default class Board {
                 this.tmpBoard = this.shuffle(this.tmpBoard)
                 this.start()
                 this.reset()
+                this.pause()
             })
             document.querySelector('#modal-bg2').style.display = 'flex'
         }

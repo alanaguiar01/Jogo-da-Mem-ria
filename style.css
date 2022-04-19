@@ -184,4 +184,7 @@ body{
     .modal{
         height: 250px;
     }
+    .modal2{
+        height: 20vh
+    }
 }
