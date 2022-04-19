@@ -40,11 +40,13 @@ body{
 .modal{
     background-color: white;
     height: 25vh;
-    width: 29vw;
+    width: calc(29vw - 30px);
+    margin: 0 auto;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 .actions{
@@ -178,5 +180,8 @@ body{
         width: auto;
         height: auto;
         grid-gap: 0.2em;
+    }
+    .modal{
+        height: 250px;
     }
 }
