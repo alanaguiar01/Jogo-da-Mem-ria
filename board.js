@@ -78,7 +78,7 @@ export default class Board {
                         card.style.backgroundImage = 'url(./images/innovation.png)'
                     })
                     this.twoCards = []
-                },1000)
+                },200)
             }
             this.firstCard = null
             this.secondCard = null
@@ -93,8 +93,7 @@ export default class Board {
                     this.restartGame()
                 }
             }
-
-        },300)
+        },100)
         
     }
 
@@ -136,7 +135,6 @@ export default class Board {
                 this.tmpBoard = this.shuffle(this.tmpBoard)
                 this.start()
                 this.reset()
-                this.pause()
             })
             document.querySelector('#modal-bg2').style.display = 'flex'
         }
